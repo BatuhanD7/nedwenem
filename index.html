@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- css connection -->
+    <title>MyALBUM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- these three lines are added to the code for using google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1>Famous Authors Album</h1>
+
+      <nav>
+
+        <div class="nationalities">
+
+          <h2 class="title">Nationalities of our Authors</h2>
+          <ul id="nat1">
+            <li>Turkish</li>
+            <li>American</li>
+            <li>French</li>
+          </ul>
+
+        </div>
+        <div class="birth">
+
+          <h2 class="title">Date of Birth of our Authors</h2>
+          <ol>
+            <li>12 January 1905</li>
+            <li>20 September 1948</li>
+            <li>26 February 1802</li>
+          </ol>
+
+        </div>
+
+      </nav>
+
+  <section>
+    <form action="https://wt.ops.labs.vu.nl/api23/b5d269fe" method="post" class="pic1">
+
+    <table id="tableMain"> <!-- opening a table -->
+
+      <caption id="albumTitle">3 <strong>IMPORTANT</strong> <em>Authors</em> In <pre>Human History</pre></caption>
+
+      <tr>
+        <th id="imageTh">Image</th>
+        <th>Author</th>
+        <th>Tags</th>
+        <th>Alt</th>
+        <th>Description</th>
+      </tr>
+
+      <tr id="row1">
+        <td> <figure>
+          <img src="http://2.bp.blogspot.com/_xr7rdh2SuIQ/TGqf6ankSSI/AAAAAAAAAOU/3pXwniECHfo/s1600/nihal+atsiz.jpg" alt="Image of Nihal Atsiz" width="232"> <figcaption>nihal atsiz</figcaption> </figure> </td>
+        <td><h2>Nihal Atsiz</h2></td>
+        <td>Turkish Nationalist, Litteraturer, Politics</td>
+        <td>Image of Nihal Atsiz</td>
+        <td><p class="description">During his lifetime, many scholars and authors who were influenced by Atsiz decided to give a "present" to him by writing an honorary book. However, he died before receiving the present, which was published in 1976. Nineteen young academicians and authors, assembled under a nationalist association "Siyah Beyaz Kültür ve Sanat Platformu", published a book on him, <abbr title="Atsiz">"Vaktiyle Bir Atsiz Varmiş"</abbr> , consisted of articles and comparative studies on his works, life and views. In the Maltepe district in Istanbul, a park is named after him.</p></td>
+      </tr>
+      <tr id="row2">
+        <td><figure><img class="grrm" src="https://upload.wikimedia.org/wikipedia/commons/e/e4/George_R_R_Martin_2011_Shankbone.JPG" alt="Image of George R. R. Martin" width="232"> <figcaption>george rr martin</figcaption> </figure></td>
+        <td><h2>George R. R. Martin</h2></td>
+        <td>Author, Director, <a id="gotlink" href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game Of Thrones</a></td>
+        <td>Image of George R. R. Martin</td>
+        <td><p class="description">George R.R. Martin is an American novelist and short-story writer in the fantasy, horror, and science fiction genres, a screenwriter, and television producer. He is known for his international bestselling series of epic fantasy novels, A Song of Ice and Fire, which was later adapted into the HBO dramatic series Game of Thrones (2011)</p></td>
+      </tr>
+      <tr id="row3">
+        <td><figure><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg/800px-Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg" alt="Image of Victor Hugo" width="232"> <figcaption>Professor Victor Hugo</figcaption></figure></td>
+        <td><h2>Victor Marie Hugo</h2></td>
+        <td>Author, Politician, <a id="miserables" href="https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables">Les Miserabels</a></td>
+        <td>Image of Victor Hugo</td>
+        <td> <p class="description">He was a French Romantic writer and politician. During a literary career that spanned more than sixty years, he wrote in a variety of genres and forms. He is considered to be one of the greatest French writers of all time</p></td>
+      </tr>
+      <tr>
+        <td>
+          <label for="pic">Upload picture:</label><br>
+          <input type="file" name="image" id="pic" size="8"> 
+        </td>
+        <td>
+            <label for="name"></label>
+            <input type="text" id="name" name="author" placeholder="Author" size="8"><br> 
+        </td>
+        <td>
+          
+            <label for="name1"></label>
+            <input type="text" id="name1" name="alt" placeholder="Tags" size="8" required><br>
+        </td>
+        <td>
+            <label for="name3"></label>
+            <input type="text" id="name3" name="tags" placeholder="Alt" size="8" required><br>
+        </td>
+        <td>
+            <label for="name4"></label>
+            <input type="text" id="name4" name="description" placeholder="Description" size="37">
+            <input type="submit" name="name" value="Submit">
+        </td>
+      </tr>
+      
+      
+    </table>
+  </form>
+
+      
+
+  </section>
+  <h3 id="awards"> Some Rewards <img id="awardPhoto" src="https://d.newsweek.com/en/full/378681/george-r-r-martin.jpg" alt="grrm"> of Authors</h3>
+  <dl id="works">
+    <dt><strong>Some Awards of George R. R. Martin</strong></dt>
+    <dd>2006 Hugo Award nomination for Best Novel<br>2012 World Fantasy Award nomination for Best Novel<br>Ignotius Award, Best Foreign Novel of 2002</dd>
+    <dt><strong>Different Books of Victor Hugo</strong></dt>
+    <dd>The Poor People (1854)<br>Claude Gueux (1834)<br>The Hunchback of Notre-Dame (1831)</dd>
+    <dt><strong>Nihal Atsiz Nobels</strong></dt>
+  <dd>Bozkurtlarin Ölümü (Death of the Grey Wolves), İstanbul 1946</dd>
+  <dd>Bozkurtlar Diriliyor (Revival of the Grey Wolves), İstanbul 1949</dd>
+  <dd>Deli Kurt (Mad Wolf), İstanbul 1958</dd>
+  </dl>
+  <h2 class="title">Death Dates of Authors</h2>
+  <ol id="deaths">
+    <li>Nihal Atsiz 17 Dec 1975</li>
+    <li>George R. R. Martin Is Still Alive</li>
+    <li>Victor Hugo 22 May 1885</li>
+  </ol>
+  <a id="scroll" href="#">Scroll Up</a>
+  </body>
+</html>
