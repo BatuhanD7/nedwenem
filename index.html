@@ -10,8 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&display=swap" rel="stylesheet">
   </head>
   <body>
-
-    <h1>Famous Authors Album</h1>
+    <header>
+      <h1>Famous Authors Album</h1>
+    </header>
 
       <nav>
 
@@ -37,9 +38,8 @@
         </div>
 
       </nav>
-
+      <form action="https://wt.ops.labs.vu.nl/api23/b5d269fe" method="post" class="pic1">
   <section>
-    <form action="https://wt.ops.labs.vu.nl/api23/b5d269fe" method="post" class="pic1">
 
     <table id="tableMain"> <!-- opening a table -->
 
@@ -59,7 +59,9 @@
         <td><h2>Nihal Atsiz</h2></td>
         <td>Turkish Nationalist, Litteraturer, Politics</td>
         <td>Image of Nihal Atsiz</td>
-        <td><p class="description">During his lifetime, many scholars and authors who were influenced by Atsiz decided to give a "present" to him by writing an honorary book. However, he died before receiving the present, which was published in 1976. Nineteen young academicians and authors, assembled under a nationalist association "Siyah Beyaz Kültür ve Sanat Platformu", published a book on him, <abbr title="Atsiz">"Vaktiyle Bir Atsiz Varmiş"</abbr> , consisted of articles and comparative studies on his works, life and views. In the Maltepe district in Istanbul, a park is named after him.</p></td>
+        <td><p class="description">During his lifetime, many scholars and authors who were influenced by Atsiz decided to give a "present" to him by writing an honorary book. However, he died before receiving the present, which was published in 1976.
+
+Nineteen young academicians and authors, assembled under a nationalist association "Siyah Beyaz Kültür ve Sanat Platformu", published a book on him, <abbr title="Atsiz">"Vaktiyle Bir Atsiz Varmiş"</abbr> , consisted of articles and comparative studies on his works, life and views. In the Maltepe district in Istanbul, a park is named after him.</p></td>
       </tr>
       <tr id="row2">
         <td><figure><img class="grrm" src="https://upload.wikimedia.org/wikipedia/commons/e/e4/George_R_R_Martin_2011_Shankbone.JPG" alt="Image of George R. R. Martin" width="232"> <figcaption>george rr martin</figcaption> </figure></td>
@@ -77,53 +79,74 @@
       </tr>
       <tr>
         <td>
-          <label for="pic">Upload picture:</label><br>
-          <input type="file" name="image" id="pic" size="8"> 
+
+          <label class="imgForm" for="pic">Upload picture:</label><br>
+          <input class="imgForm" type="file" name="image" id="pic" size="8">
+
         </td>
         <td>
             <label for="name"></label>
-            <input type="text" id="name" name="author" placeholder="Author" size="8"><br> 
+            <input type="text" id="name" name="author" placeholder="Author" size="8"><br>
         </td>
         <td>
-          
             <label for="name1"></label>
-            <input type="text" id="name1" name="alt" placeholder="Tags" size="8" required><br>
+            <input type="text" id="name1" name="alt" placeholder="Tags" size="8"><br>
         </td>
         <td>
             <label for="name3"></label>
-            <input type="text" id="name3" name="tags" placeholder="Alt" size="8" required><br>
+            <input type="text" id="name3" name="tags" placeholder="Alt" size="8"><br>
         </td>
         <td>
             <label for="name4"></label>
             <input type="text" id="name4" name="description" placeholder="Description" size="37">
             <input type="submit" name="name" value="Submit">
         </td>
-      </tr>
-      
-      
-    </table>
-  </form>
 
-      
+
+
+      </tr>
+
+    </table>
 
   </section>
-  <h3 id="awards"> Some Rewards <img id="awardPhoto" src="https://d.newsweek.com/en/full/378681/george-r-r-martin.jpg" alt="grrm"> of Authors</h3>
-  <dl id="works">
-    <dt><strong>Some Awards of George R. R. Martin</strong></dt>
-    <dd>2006 Hugo Award nomination for Best Novel<br>2012 World Fantasy Award nomination for Best Novel<br>Ignotius Award, Best Foreign Novel of 2002</dd>
-    <dt><strong>Different Books of Victor Hugo</strong></dt>
-    <dd>The Poor People (1854)<br>Claude Gueux (1834)<br>The Hunchback of Notre-Dame (1831)</dd>
-    <dt><strong>Nihal Atsiz Nobels</strong></dt>
-  <dd>Bozkurtlarin Ölümü (Death of the Grey Wolves), İstanbul 1946</dd>
-  <dd>Bozkurtlar Diriliyor (Revival of the Grey Wolves), İstanbul 1949</dd>
-  <dd>Deli Kurt (Mad Wolf), İstanbul 1958</dd>
-  </dl>
-  <h2 class="title">Death Dates of Authors</h2>
-  <ol id="deaths">
-    <li>Nihal Atsiz 17 Dec 1975</li>
-    <li>George R. R. Martin Is Still Alive</li>
-    <li>Victor Hugo 22 May 1885</li>
-  </ol>
-  <a id="scroll" href="#">Scroll Up</a>
+  </form>
+<article>
+  <div class="article1">
+
+    <h3 id="awards"> Some Rewards <img id="awardPhoto" src="https://d.newsweek.com/en/full/378681/george-r-r-martin.jpg" alt="grrm"> of Authors</h3>
+    
+    <dl id="works">
+
+      <dt>Some Awards of George R. R. Martin</dt>
+        <dd>2006 Hugo Award nomination for Best Novel<br>2012 World Fantasy Award nomination for Best Novel<br>Ignotius Award, Best Foreign Novel of 2002</dd>
+      <dt>Different Books of Victor Hugo</dt>
+        <dd>The Poor People (1854)<br>Claude Gueux (1834)<br>The Hunchback of Notre-Dame (1831)</dd>
+      <dt>Nihal Atsiz Nobels</dt>
+        <dd>Bozkurtlarin Ölümü (Death of the Grey Wolves), İstanbul 1946</dd>
+        <dd>Bozkurtlar Diriliyor (Revival of the Grey Wolves), İstanbul 1949</dd>
+        <dd>Deli Kurt (Mad Wolf), İstanbul 1958</dd>
+
+    </dl>
+
+  </div>
+
+  <div class="article2">
+
+    <div class="article2in">
+
+      <h2 class="title dTitle">Death Dates of Authors</h2>
+      <ol id="deaths">
+        <li>Nihal Atsiz 17 Dec 1975</li>
+        <li>George R. R. Martin Is Still Alive</li>
+        <li>Victor Hugo 22 May 1885</li>
+      </ol>
+
+    </div>
+
+
+  </div>
+</article>
+
+
   </body>
 </html>
