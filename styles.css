@@ -1,147 +1,161 @@
 body {
-    background-color: #E1D7C6;
-  }
-  h1 {
-    font: oblique small-caps lighter 50px "Times New Roman", Times, serif;
-    text-align: center;
-    text-decoration: overline #495579 double 5px;
-  }
-  table{
-    border: 5px inset #D0B8A8;
-    margin: 0 auto;
-    border-spacing: 30px;
-    width: 75%;
-  }
-  @media print {
-    #albumTitle {page-break-after: always; orphans: 5; widows: 3;}
+   background-color: #E1D7C6;
+ }
+ h1 {
+   font: oblique small-caps lighter 50px "Times New Roman", Times, serif;
+   text-align: center;
+   text-decoration: overline #495579 double 5px;
+ }
+ table{
+   border: 5px inset #D0B8A8;
+   margin: 0 auto;
+   border-spacing: 30px;
+   width: 75%;
+ }
+ th {
+   border: 5px inset #D0B8A8;
+   font-variant: small-caps;
+   font-weight: bold;
+ }
+ figcaption {
+   border: 5px inset #D0B8A8;
+   text-transform: uppercase;
+ }
 
-  }
-  @media print {
-    #awards {page-break-before: always; orphans: 3; widows: 1;}
-  }
-  
-  @media print {
-    body {
-      background-color: #E1D7C6;
-    }
-  }
-  @media screen and (max-width:500px){
-    table{
-      width: 300px;
-    }
-  }
+ .title {
+   width: 100%;
+   font-size: 20px;
+   font-style: italic;
+   font-family: 'Josefin Slab', serif;
+ }
+ .imgForm {
+   margin-left: 40px;
+ }
+ .nationalities , .birth {
+   color: #FFFBAC;
+   margin: 25px 50px 25px 50px;
+   padding: 7.5px 5px 7.5px 5px;
+ }
+ .nationalities{
+   float: left;
+   background: #E1D7C6 url("https://th.bing.com/th/id/OIP.SVyyH2rLkJ1L1DTi4MYkLAHaFq?pid=ImgDet&rs=1") no-repeat ;
+   background-size: cover;
+   border: 5px double #9A9B94;
+   width: 16%;
+ }
+ .birth {
+   float: right;
+   background-color: #144272;
+   border-style: dotted;
+   border-color: #8EA6B4;
+   border-width: thick;
+   width: 15.8%;
+ }
+ .description {
+   width: 100%;
+   text-indent: 70px;
+ }
+ #albumTitle {
+   width: 100%;
+   color: #1C315E;
+   caption-side: top;
+   font-size: 20pt;
+ }
+ #awardPhoto{
+ width: 15%;
+ }
+ img.awardPhoto {
+   vertical-align: text-bottom;
+ }
+ dl {
+   list-style: square inside linear-gradient(to left bottom,#00337C,#F5EA5A);
+ }
+ @media print {
+   #albumTitle {page-break-after: always; orphans: 5; widows: 3;}
 
-  th {
-    border: 5px inset #D0B8A8;
-    font-variant: small-caps;
-    font-weight: bold;
-  }
-  figcaption {
-    border: 5px inset #D0B8A8;
-    text-transform: uppercase;
-  }
-  
-  .title {
-    width: 100%;
-    font-size: 20px;
-    font-style: italic;
-    font-family: 'Josefin Slab', serif;
-  }
-  .pic1 {
-    margin-left: 50px;
-    width: 100%;
-    vertical-align: text-bottom;
-  }
-  .nationalities , .birth {
-    width: 100%;
-    float: right;
-    color: #FFFBAC;
-    margin: 25px 50px 25px 50px;
-    padding: 7.5px 5px 7.5px 5px;
-  }
-  .nationalities{
-    width: 100%;
-    float: left;
-    background: #E1D7C6 url("https://th.bing.com/th/id/OIP.SVyyH2rLkJ1L1DTi4MYkLAHaFq?pid=ImgDet&rs=1") no-repeat ;
-    background-size: cover;
-    border: 5px double #9A9B94;
-    width: 16%;
-  }
-  .birth {
-    width: 100%;
-    background-color: #144272;
-    border-style: dotted;
-    border-color: #8EA6B4;
-    border-width: thick;
-    width: 15.8%;
-  }
-  .description {
-    width: 100%;
-    text-indent: 70px;
-  }
-  #albumTitle {
-    width: 100%;
-    color: #1C315E;
-    caption-side: top;
-    font-size: 20pt;
-  }
-  #awardPhoto{
-  width: 5%;
-  }
-  img.awardPhoto {
-    
-    vertical-align: text-bottom;
-  }
-  dl {
-    list-style: square inside linear-gradient(to left bottom,#00337C,#F5EA5A);
-  }
+ }
+ @media print {
+   #awards {page-break-before: always; orphans: 3; widows: 1;}
+ }
 
-  
-  #gotlink:link{
-    color: purple;
-    text-decoration: none;
-  }
-  #gotlink:visited{
-    color: #243763;
-    text-decoration: none;
-  }
-  #gotlink:hover{
-    color: blue;
-  }
-  #gotlink:active{
-    font-style: italic;
-    text-decoration: none;
-  }
-  #gotlink:focus{
-    font-weight: bold;
-    text-decoration: none;
-  }
-  #miserables:link{
-    color: purple;
-    text-decoration: none;
-  }
-  #miserables:visited{
-    color: #243763;
-    text-decoration: none;
-  }
-  #miserables:hover{
-    color: blue;
-  }
-  #miserables:active{
-    font-style: italic;
-    text-decoration: none;
-  }
-  #miserables:focus{
-    font-weight: bold;
-    text-decoration: none;
-  }
-  #nat1 {
-    list-style-type: circle;
-    list-style-position: inside;
-    list-style-image: linear-gradient(to left bottom,#00337C,#F5EA5A);
-  }
+ @media print {
+   body {
+     background-color: #E1D7C6;
+   }
+ }
+ @media screen and (max-width:500px){
+   table{
+     width: 300px;
+   }
+   body {
+     background-color: blue;
+   }
+ }
 
-  #deaths {
-    list-style: square inside linear-gradient(to left bottom,#86C8BC,#AD8E70);
-  }
-  
+ #gotlink:link{
+   color: purple;
+   text-decoration: none;
+ }
+ #gotlink:visited{
+   color: #243763;
+   text-decoration: none;
+ }
+ #gotlink:hover{
+   color: blue;
+ }
+ #gotlink:active{
+   font-style: italic;
+   text-decoration: none;
+ }
+ #gotlink:focus{
+   font-weight: bold;
+   text-decoration: none;
+ }
+ #miserables:link{
+   color: purple;
+   text-decoration: none;
+ }
+ #miserables:visited{
+   color: #243763;
+   text-decoration: none;
+ }
+ #miserables:hover{
+   color: blue;
+ }
+ #miserables:active{
+   font-style: italic;
+   text-decoration: none;
+ }
+ #miserables:focus{
+   font-weight: bold;
+   text-decoration: none;
+ }
+ #nat1 {
+   list-style-type: circle;
+   list-style-position: inside;
+   list-style-image: linear-gradient(to left bottom,#00337C,#F5EA5A);
+ }
+ #deaths {
+   padding-left: 20px;
+   list-style: square inside linear-gradient(to left bottom,#86C8BC,#AD8E70);
+ }
+ .article1 , .article2 {
+   display: inline-block;
+   margin: 10px;
+ }
+ .article1 {
+   border: 5px outset #65647C;
+   padding-left: 10px;
+   width: 30%;
+ }
+ .article2 {
+   float: right;
+   padding-right: 300px;
+   width: 20%;
+ }
+ .article2in {
+   border: 5px outset #65647C;
+ }
+.dTitle {
+  margin-left: 30px;
+}
