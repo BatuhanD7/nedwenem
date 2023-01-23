@@ -39,7 +39,7 @@ body {
  .nationalities{
    float: left;
    background: #E1D7C6 url("https://th.bing.com/th/id/OIP.SVyyH2rLkJ1L1DTi4MYkLAHaFq?pid=ImgDet&rs=1") no-repeat ;
-   background-size: cover;
+   background-size: 100% 100%;
    border: 5px double #9A9B94;
    width: 16%;
  }
@@ -141,7 +141,10 @@ body {
  }
  .article1 , .article2 {
    display: inline-block;
-   margin: 10px;
+   margin-right: 10px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+   margin-top: 10px;
  }
  .article1 {
    border: 5px outset #65647C;
@@ -154,8 +157,18 @@ body {
    width: 20%;
  }
  .article2in {
+   background-image: url("https://th.bing.com/th/id/R.2f6d9fae0a35f675ee4761a64840f682?rik=FTA8k%2bJalKMu%2bA&pid=ImgRaw&r=0");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
    border: 5px outset #65647C;
  }
 .dTitle {
   margin-left: 30px;
+}
+
+#desc2 {
+  margin-top: 20px;
+}
+.upload {
+  margin-top: 20px;
 }
